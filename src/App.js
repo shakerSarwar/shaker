@@ -8,6 +8,9 @@ import Services from './components/Services/Services';
 import Skills from './components/Skills/Skills';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
+import Work from './components/Work/Work';
+import Footer from './components/Footer/Footer';
+import Scroll from './components/ScrollUp/Scroll';
 
 function App() {
   return (
@@ -20,9 +23,13 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Work />
         <Testimonials />
         <Contact />
+        
       </main>
+      <Footer />
+      <Scroll />
     </>
   );
 }
